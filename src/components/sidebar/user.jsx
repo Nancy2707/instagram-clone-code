@@ -10,14 +10,14 @@ const User = () => {
           to=""
           className="block rounded-full border border-slate-200 overflow-hidden"
         >
-          <img className="w-14 h-14" src="/images/users/default.png" alt="" />
+          <img className="w-14 h-14" src="/images/users/profile.png" alt="" />
         </Link>
       </div>
       <div className="flex flex-col grow">
         <Link to="" className="font-medium">
-          m.nickparvar
+          Nancy Sharma
         </Link>
-        <span className="text-slate-400 mt-0.5">Masoud :)</span>
+        <span className="text-slate-400 mt-0.5">_nancyshr_</span>
       </div>
       <div className="text-sky-500 text-xs font-medium">
         <button type="button">Switch</button>

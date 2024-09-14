@@ -10,7 +10,7 @@ const Direct = () => {
           <div className="switch-account-box flex flex-row items-center justify-center w-full px-5">
             <button className="btn flex items-center justify-center grow">
               <span className="font-semibold text-neutral-800	text-base mr-2">
-                m.nickparvar
+                _nancyshr_
               </span>
               <span className="inline-block rotate-180">
                 <svg

@@ -29,7 +29,7 @@ const MenuDropdown = () => {
         onClick={handleActiveDropdown}
         ref={menuButton}
       >
-        <img className="" src="/images/users/default.png" alt={``} />
+        <img className="" src="/images/users/profile.png" alt={``} />
       </button>
 
       <Dropdown
