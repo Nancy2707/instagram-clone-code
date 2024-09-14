@@ -10,6 +10,7 @@ import { PrivateRoutes } from "./routes/privateRoutes";
 import { useAuth } from "./contexts/Auth";
 // import { Home, Direct } from "./pages";
 import "./App.scss";
+import Warning from "./pages/warning/warning";
 
 const Home = lazy(() => import("./pages/home/home"));
 const Direct = lazy(() => import("./pages/direct/direct"));
@@ -21,6 +22,7 @@ function App() {
   const { user } = useAuth();
   return (
     <Suspense fallback={<Preloading />}>
+      <Warning/>
       <Router>
         {user.loggedIn && <Header />}
         <main className="bg-neutral-50">
